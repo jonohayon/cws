@@ -20,6 +20,7 @@ cc_library(
   ],
   deps = [
     ':handshake-defs',
+    '//cws-utils:utils',
     '@http_parser//:http_parser'
   ],
   visibility = ['//cws-server:__pkg__']

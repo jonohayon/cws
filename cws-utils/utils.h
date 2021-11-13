@@ -24,11 +24,11 @@ typedef enum cws_status_code_e {
 typedef struct cws_string_s {
   char *data;
   size_t length;
-  size_t max_size;
 } cws_string_t;
 
 typedef struct cws_string_list_s {
   size_t length;
+  size_t max_size;
   cws_string_t strings[0];
 } cws_string_list_t;
 
