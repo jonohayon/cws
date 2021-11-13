@@ -1,0 +1,27 @@
+[
+  {
+    "command": "external/local_config_cc/wrapped_clang -D_FORTIFY_SOURCE=1 -fstack-protector -fcolor-diagnostics -Wall -Wthread-safety -Wself-assign -fno-omit-frame-pointer -O0 -DDEBUG DEBUG_PREFIX_MAP_PWD=.  -F__BAZEL_XCODE_SDKROOT__/System/Library/Frameworks -F__BAZEL_XCODE_DEVELOPER_DIR__/Platforms/MacOSX.platform/Developer/Library/Frameworks -mmacosx-version-min=11.3 -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -target x86_64-apple-macosx -iquote . -iquote bazel-out/darwin-fastbuild/bin -c cws-server/server.c",
+    "directory": "/private/var/tmp/_bazel_jonathano/d2bdc64490b6fef0e5690a6b59205158/execroot/cws",
+    "file": "cws-server/server.c"
+  },
+  {
+    "command": "external/local_config_cc/wrapped_clang -D_FORTIFY_SOURCE=1 -fstack-protector -fcolor-diagnostics -Wall -Wthread-safety -Wself-assign -fno-omit-frame-pointer -O0 -DDEBUG DEBUG_PREFIX_MAP_PWD=.  -F__BAZEL_XCODE_SDKROOT__/System/Library/Frameworks -F__BAZEL_XCODE_DEVELOPER_DIR__/Platforms/MacOSX.platform/Developer/Library/Frameworks -mmacosx-version-min=11.3 -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -target x86_64-apple-macosx -iquote . -iquote bazel-out/darwin-fastbuild/bin -c cws-server/server.h",
+    "directory": "/private/var/tmp/_bazel_jonathano/d2bdc64490b6fef0e5690a6b59205158/execroot/cws",
+    "file": "cws-server/server.h"
+  },
+  {
+    "command": "external/local_config_cc/wrapped_clang -D_FORTIFY_SOURCE=1 -fstack-protector -fcolor-diagnostics -Wall -Wthread-safety -Wself-assign -fno-omit-frame-pointer -O0 -DDEBUG DEBUG_PREFIX_MAP_PWD=.  -F__BAZEL_XCODE_SDKROOT__/System/Library/Frameworks -F__BAZEL_XCODE_DEVELOPER_DIR__/Platforms/MacOSX.platform/Developer/Library/Frameworks -mmacosx-version-min=11.3 -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -target x86_64-apple-macosx -iquote . -iquote bazel-out/darwin-fastbuild/bin -iquote external/bazel_tools -iquote bazel-out/darwin-fastbuild/bin/external/bazel_tools -c cws-server/bin/test-server.c",
+    "directory": "/private/var/tmp/_bazel_jonathano/d2bdc64490b6fef0e5690a6b59205158/execroot/cws",
+    "file": "cws-server/bin/test-server.c"
+  },
+  {
+    "command": "external/local_config_cc/wrapped_clang -D_FORTIFY_SOURCE=1 -fstack-protector -fcolor-diagnostics -Wall -Wthread-safety -Wself-assign -fno-omit-frame-pointer -O0 -DDEBUG DEBUG_PREFIX_MAP_PWD=.  -F__BAZEL_XCODE_SDKROOT__/System/Library/Frameworks -F__BAZEL_XCODE_DEVELOPER_DIR__/Platforms/MacOSX.platform/Developer/Library/Frameworks -mmacosx-version-min=11.3 -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -target x86_64-apple-macosx -iquote . -iquote bazel-out/darwin-fastbuild/bin -c cws-handshake/parser.c",
+    "directory": "/private/var/tmp/_bazel_jonathano/d2bdc64490b6fef0e5690a6b59205158/execroot/cws",
+    "file": "cws-handshake/parser.c"
+  },
+  {
+    "command": "external/local_config_cc/wrapped_clang -D_FORTIFY_SOURCE=1 -fstack-protector -fcolor-diagnostics -Wall -Wthread-safety -Wself-assign -fno-omit-frame-pointer -O0 -DDEBUG DEBUG_PREFIX_MAP_PWD=.  -F__BAZEL_XCODE_SDKROOT__/System/Library/Frameworks -F__BAZEL_XCODE_DEVELOPER_DIR__/Platforms/MacOSX.platform/Developer/Library/Frameworks -mmacosx-version-min=11.3 -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -target x86_64-apple-macosx -iquote . -iquote bazel-out/darwin-fastbuild/bin -c cws-handshake/parser.h",
+    "directory": "/private/var/tmp/_bazel_jonathano/d2bdc64490b6fef0e5690a6b59205158/execroot/cws",
+    "file": "cws-handshake/parser.h"
+  }
+]

@@ -59,5 +59,10 @@ conaninfo.txt
 graph_info.json
 conanbuildinfo.txt
 
-build/
+# Bazel output symlinks
+bazel-bin
+bazel-cws
+bazel-out
+bazel-testlogs
+
 test.py
