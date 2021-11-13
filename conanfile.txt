@@ -1,5 +1,7 @@
 [requires]
 http_parser/2.9.4
+libuv/1.42.0
+openssl/3.0.0
 
 [generators]
 BazelDeps
