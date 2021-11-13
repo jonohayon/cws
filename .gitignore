@@ -53,5 +53,11 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Conan outputs
+conandeps/
+conaninfo.txt
+graph_info.json
+conanbuildinfo.txt
+
 build/
 test.py

@@ -1,0 +1,5 @@
+[requires]
+http_parser/2.9.4
+
+[generators]
+BazelDeps
