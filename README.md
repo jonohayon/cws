@@ -4,7 +4,7 @@ cws
 > A simple WebSocket server built in C with libuv.
 
 ## Why?
-I wanted to learn how to build a project using Bazel and Conan together, and to
+I wanted to learn how to build a project using [Conan](http://conan.io), and to
 train my C programming abilities.
 
 ## Design

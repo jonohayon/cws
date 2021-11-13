@@ -1,0 +1,6 @@
+workspace(name = 'cws')
+
+local_repository(
+  name = 'deps',
+  path = '../deps'
+)
